@@ -1,0 +1,29 @@
+.hidden {
+  display: none;
+}
+
+.uploadElement {
+  border: thin solid #000000;
+  padding: 15px;
+  margin: 15px;
+}
+
+input[type=file] {
+  width: 500px;
+}
+
+.link {
+  padding: 5px;
+}
+
+.link .btn-secondary {
+  width: 150px;
+}
+
+.link input {
+  width: 550px;
+}
+
+button.add {
+  margin-left: 15px;
+}
