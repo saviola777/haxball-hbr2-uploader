@@ -52,6 +52,9 @@ if (isset($_GET['h'])) {
         <label>Please select .hbr2 file (max. 300kb)
           <input type="file" name="file" />
         </label>
+        <button type="button" class="close pull-right" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
         <br />
         Status: <span class="status">waiting for file</span>
       </div>
@@ -77,4 +80,3 @@ if (isset($_GET['h'])) {
 
 </body>
 </html>
-
