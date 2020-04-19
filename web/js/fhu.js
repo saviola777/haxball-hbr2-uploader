@@ -12,6 +12,7 @@ function addNewUploadElement() {
   let newUploadElement = $(`#template .uploadElement`).clone();
 
   newUploadElement.find(`input`).on(`change`, onFileSelectedHandler);
+  newUploadElement.find(`button.close`).on(`click`, () => newUploadElement.remove());
 
   newUploadElement.appendTo(`#content`);
 }
